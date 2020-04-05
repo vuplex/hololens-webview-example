@@ -72,3 +72,4 @@ crashlytics-build.properties
 .DS_Store
 .vscode/
 Assets/Vuplex*
+build-uwp*
