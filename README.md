@@ -18,6 +18,7 @@ This Unity project demonstrates how to use the [Vuplex 3D WebView asset](https:/
     - Other Settings:
         - Auto Graphics API: disabled
         - Graphics APIs: Direct3D11
+        - Graphics Jobs: disabled (required for Hololens 2)
         - Scripting Define Symbols: VUPLEX_MRTK (this enables 3D WebView's compatibility with MRTK's input system)
     - Publishing Settings:
         - Capabilities:
