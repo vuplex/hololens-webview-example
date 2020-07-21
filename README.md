@@ -39,7 +39,6 @@ This Unity project demonstrates how to use the [Vuplex 3D WebView asset](https:/
     - XR Settings:
         - Virtual Reality Supported: enabled
         - Virtual Reality SDKs: Windows Mixed Reality
-        - Stereo Rendering Mode: Multi-Pass
 
 ## License
 
