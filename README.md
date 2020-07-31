@@ -16,7 +16,7 @@ This Unity project demonstrates how to use the [Vuplex 3D WebView asset](https:/
 
 ## Steps taken to create this project
 
-1. Created a new project with Unity 2019.3.4.
+1. Created a new project with Unity 2019.4.5.
 2. Installed [MRTK v2.3.0](https://github.com/Microsoft/MixedRealityToolkit-Unity/releases).
 3. Installed 3D WebView for UWP / Hololens ([.gitignore](./.gitignore#L74)).
 4. Created a new scene named OculusWebViewDemoScene that combines 3D WebView's [WebViewPrefab](https://developer.vuplex.com/webview/WebViewPrefab) and [Keyboard](https://developer.vuplex.com/webview/Keyboard) components with the needed components from MRTK.
