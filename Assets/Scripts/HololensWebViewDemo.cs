@@ -14,7 +14,7 @@ class HololensWebViewDemo : MonoBehaviour {
         _webViewPrefab.transform.localPosition = new Vector3(0, 0.2f, 1);
         _webViewPrefab.transform.localEulerAngles = new Vector3(0, 180, 0);
         _webViewPrefab.Initialized += (sender, e) => {
-            _webViewPrefab.WebView.LoadUrl("https://www.google.com");
+            _webViewPrefab.WebView.LoadUrl("https://bing.com");
         };
 
         // Add an on-screen keyboard under the main webview.
