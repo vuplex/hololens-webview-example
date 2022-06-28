@@ -1,5 +1,5 @@
-The Mixed Reality Toolkit library located in the Assets/MixedRealityToolkit*
-directories is Copyright (c) Microsoft Corporation and licensed under the
+The Mixed Reality Toolkit library located in the Assets/MRTK
+directory is Copyright (c) Microsoft Corporation and licensed under the
 MIT License.
 
 All other code and assets are Copyright (c) Vuplex, Inc and licensed under
