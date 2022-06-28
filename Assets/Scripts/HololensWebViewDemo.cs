@@ -1,5 +1,5 @@
-using UnityEngine;
 using System;
+using UnityEngine;
 using Vuplex.WebView;
 
 class HololensWebViewDemo : MonoBehaviour {
@@ -13,7 +13,7 @@ class HololensWebViewDemo : MonoBehaviour {
         _webViewPrefab.transform.parent = transform;
         _webViewPrefab.transform.localPosition = new Vector3(0, 0.2f, 1);
         _webViewPrefab.transform.localEulerAngles = new Vector3(0, 180, 0);
-        _webViewPrefab.Initialized += (sender, e) => {
+        _webViewPrefab.Initialized += (sender, eventArgs) => {
             _webViewPrefab.WebView.LoadUrl("https://bing.com");
         };
 
@@ -22,8 +22,8 @@ class HololensWebViewDemo : MonoBehaviour {
         keyboard.transform.parent = _webViewPrefab.transform;
         keyboard.transform.localPosition = new Vector3(0, -0.31f, 0);
         keyboard.transform.localEulerAngles = new Vector3(0, 0, 0);
-        keyboard.InputReceived += (sender, e) => {
-            _webViewPrefab.WebView.HandleKeyboardInput(e.Value);
+        keyboard.InputReceived += (sender, eventArgs) => {
+            _webViewPrefab.WebView.SendKey(eventArgs.Value);
         };
     }
 }
