@@ -1,6 +1,6 @@
 # Hololens WebView Example
 
-This Unity project demonstrates how to use the [Vuplex 3D WebView asset](https://developer.vuplex.com/webview/overview) with Hololens. It includes Microsoft's [Mixed Reality Toolkit (MRTK)](https://github.com/microsoft/MixedRealityToolkit-Unity), so the only thing you must import [3D WebView for UWP / Hololens](https://store.vuplex.com/webview/uwp).
+This Unity project demonstrates how to use the [Vuplex 3D WebView asset](https://developer.vuplex.com/webview/overview) with Hololens. It includes Microsoft's [Mixed Reality Toolkit 2 (MRTK2)](https://github.com/microsoft/MixedRealityToolkit-Unity), so the only thing you must import [3D WebView for UWP / Hololens](https://store.vuplex.com/webview/uwp). Note: there is not currently an example project for using 3D WebView with MRTK3. For more details, please see [this article](https://support.vuplex.com/articles/clicking#mrtk).
 
 <p align="center">
   <img alt="demo" src="./demo.gif" width="640">
