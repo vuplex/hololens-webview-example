@@ -40,6 +40,16 @@ This Unity project demonstrates how to use the [Vuplex 3D WebView asset](https:/
         - Enable the OpenXR provider
         - Under the OpenXR provider, enable "Microsoft Hololens feature group"
 
+## Using CanvasWebViewPrefab
+
+The HololensWebViewDemo scene uses a [WebViewPrefab](https://developer.vuplex.com/webview/WebViewPrefab), but you can make the following modifications to the scene to make it use a [CanvasWebViewPrefab](https://developer.vuplex.com/webview/CanvasWebViewPrefab) instead:
+
+1. Copy the Canvas object from 3D WebView's CanvasWorldSpaceDemo scene, paste it into the HololensWebViewDemo scene, and place it at the position (0, 0, 1).
+2. Disable the scene's SceneManager game object (because it contains the script that instantiates a WebViewPrefab).
+3. On the Canvas object, click the "Convert to MRTK Canvas" button.
+
+After these modifications, you can build the scene and interact with the canvas's CanvasWebViewPrefab and CanvasKeyboard.
+
 ## License
 
 The Mixed Reality Toolkit library located in the Assets/MRTK directory is Copyright © Microsoft Corporation and is licensed under the MIT License.
